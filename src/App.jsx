@@ -16,7 +16,7 @@ const INITIAL_FOODS = [
   { id: 12, name: "Eba & Okra", desc: "Fresh okra soup served with hot eba swallow", price: 1200, oldPrice: null, discount: null, cat: "swallow", hot: false, img: "https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=400&q=80" },
 ];
 
-const API_BASE_URL = "http://127.0.0.1:8000";
+const API_BASE_URL = "https://food-mart-agentic.onrender.com";
 
 function App() {
   const [foods] = useState(INITIAL_FOODS);
