@@ -1,7 +1,6 @@
 fastapi
 uvicorn
 groq
+pydantic
 python-dotenv
-PyMuPDF
-reportlab
 python-multipart
