@@ -91,7 +91,7 @@ function App() {
     const orderLines = cart.map(c => `${c.name} x${c.qty} = ${fmt(c.price * c.qty)}`).join('\n');
     const emailBody = `New Order from FoodMart!\n\nCustomer: ${fullName}\nPhone: ${phone}\nAddress: ${address}\n\nOrder:\n${orderLines}\n\nTotal: ${fmt(totalCartPrice)}`;
 
-    window.location.href = `mailto:olajide@gmail.com?subject=New FoodMart Order&body=${encodeURIComponent(emailBody)}`;
+    window.location.href = `mailto:olajidedaniel122@gmail.com?subject=New FoodMart Order&body=${encodeURIComponent(emailBody)}`;
 
     setIsSuccess(true);
     setCart([]);
